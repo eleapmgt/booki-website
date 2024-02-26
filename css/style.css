@@ -101,13 +101,14 @@ nav img {
   padding-bottom: 10px;
 }
 
-.search-container p {
+.search-container-title p {
   padding-bottom: 35px;
 }
 
 .search-form {
   display: flex;
   flex-direction: row;
+  padding-bottom: 35px;
 }
 
 .location-icon {
@@ -141,6 +142,64 @@ form button {
   font-weight: bold;
   background-color: #0065FC;
   padding: 15px 16px;
+}
+
+.header-filter-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+.header-filter-bar h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.header-filters {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.header-filters button {
+  height: 50px;
+  background-color: white;
+  border: 2px solid #D9D9D9;
+  border-radius: 25px;
+  padding: 4px 19px;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.header-filters button:hover {
+  background-color: #DEEBFF;
+}
+
+.header-filters button i {
+  margin-right: 5px;
+}
+
+.header-info-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 35px;
+}
+
+.info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D9D9D9;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
 }
 
 /****** Hebergements And Populaires ***********/
