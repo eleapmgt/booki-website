@@ -26,6 +26,10 @@ body {
     box-sizing: border-box;
 }
 
+h1 {
+  font-size: 22px;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -86,6 +90,116 @@ nav img {
 .navbar a:hover {
   border-top: 2px solid #0065FC;
   color: #0065FC;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container h1 {
+  padding-bottom: 10px;
+}
+
+.search-container-title p {
+  padding-bottom: 35px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 35px;
+}
+
+.location-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+  height: 49px;
+  width: 50px;
+  border-radius: 15px 0 0 15px;
+}
+
+#city-searched {
+  border: 1px solid #F2F2F2;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+#city-searched::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  margin-right: 5px;
+}
+
+form button {
+  border: none;
+  border-radius: 0 15px 15px 0;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #0065FC;
+  padding: 15px 16px;
+}
+
+.header-filter-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+.header-filter-bar h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.header-filters {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.header-filters button {
+  height: 50px;
+  background-color: white;
+  border: 2px solid #D9D9D9;
+  border-radius: 25px;
+  padding: 4px 19px;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.header-filters button:hover {
+  background-color: #DEEBFF;
+}
+
+.header-filters button i {
+  margin-right: 5px;
+}
+
+.header-info-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 35px;
+}
+
+.info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D9D9D9;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
 }
 
 /****** Hebergements And Populaires ***********/
