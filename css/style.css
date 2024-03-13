@@ -551,6 +551,10 @@ form button {
     padding: 0;
   }
 
+  .populaires-cards img {
+    padding: 5px;
+  }
+
   .hebergements-and-populaires .hebergements {
     background-color: white;
     gap: 15px;
