@@ -471,7 +471,6 @@ form button {
   }
 
   .navbar {
-    flex-grow: 1;
     display: flex;
     flex-direction: row;
   }
@@ -524,8 +523,9 @@ form button {
   }
 
   .header-filters button {
-    width: calc(162vw/4);
+    min-width: 100%;
     transition: none;
+    font-size: 14px;
   }
 
   .hebergements-and-populaires {
@@ -583,11 +583,5 @@ form button {
     flex-direction: column;
     width: 100vw;
     padding: 0 10px;
-  }
-}
-
-@media (max-width: 400px) {
-  .header-filters button {
-    font-size: 15px;
   }
 }
