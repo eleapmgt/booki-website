@@ -1,6 +1,6 @@
 # booki-starter-pack
 
-Desktop version preview:
+Desktop version preview:  
 ![alt text](public/desktopPreview.png)
 
 Mobile version preview:  
